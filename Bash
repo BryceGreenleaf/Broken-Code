@@ -1,10 +1,10 @@
 #!/bin/bash
-Valid = True
+valid=true  #made all lowercase and removed spaces 
 count=1
-while [ valid ]
+while [ $valid ] #added a $ in front
 do
-echo count
-if [ count -eq 5];
+echo $count #added a $ in front
+if [ $count -eq 5]; #added a $ in front
 then
 break
 fi
